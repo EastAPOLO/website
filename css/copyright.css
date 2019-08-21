@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #1F1F1F;
+  --secondary-bg-color: #1A1A1A;
+  --fg-color: #FAFAFA;
+  --secondary-fg-color: #707070;
+  --highlight-color:#3C8CE8;
+  --hover-color: #6E6E6E;;
+  --border-color: #2D2D2D;
+  --button-color: #2B2B2B;
+  --blue: #0000FF;
+  --white: #FFFFFF;
+}
+
+
+footer {
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 4px;
+    background: var(--secondary-bg-color);
+    color: var(--fg-color);
+}
+
+footer .fa {
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background: var(--secondary-bg-color);
+    color: var(--fg-color);
+}
