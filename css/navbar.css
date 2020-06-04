@@ -1,33 +1,9 @@
-:root {
-  --bg-color: #1F1F1F;
-  --secondary-bg-color: #1A1A1A;
-  --fg-color: #FAFAFA;
-  --secondary-fg-color: #707070;
-  --highlight-color:#3C8CE8;
-  --hover-color: #6E6E6E;;
-  --border-color: #2D2D2D;
-  --button-color: #2B2B2B;
-  --blue: #0000FF;
-  --white: #FFFFFF;
-}
-
-.title {
-    background: var(--highlight-color);
-    color: var(--white);
-    text-align: center;
-}
-
-.title h1 {
-    display: inline;
-    font-size: 2em;
-    text-align: center;
-}
-
 .navbar {
 	background-color: var(--secondary-bg-color);
 	text-align: center;
     padding: 12px;
     max-width: 100%;
+    border-bottom: 3px solid var(--highlight-color);
 }
 
 .navbar li {
@@ -44,7 +20,7 @@
 }
 
 .navbar a:hover {
-	border-bottom: 2px solid var(--hover-color);
+    background-color: var(--hover-color);
 }
 
 .navbar .fa {
@@ -59,6 +35,7 @@
 .navbar .fa:hover {
     color: var(--highlight-color);
     border: none;
+    background-color: var(--secondary-bg-color);
 }
 
 .navbar .icon {
@@ -66,8 +43,5 @@
 }
 
 .current a, .current a:hover {
-    border-bottom: 2px solid var(--highlight-color);
-}
-.current a {
-    border-bottom: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
 }
