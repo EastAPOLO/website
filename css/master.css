@@ -3,7 +3,8 @@
   --secondary-bg-color: #1A1A1A;
   --fg-color: #EAEAEA;
   --secondary-fg-color: #C4C4C4;
-  --highlight-color: #3B7CD1;
+  --highlight-color: #368DD9;
+  --link-color: #459AE6;
   --hover-color: #3B3B3B;
   --button-color: #2B2B2B;
   --blue: #0000FF;
@@ -45,7 +46,7 @@ a, a:hover {
 }
 
 .content ul a:hover {
-    color: var(--highlight-color);
+    color: var(--link-color);
 }
 
 .content h2 {
